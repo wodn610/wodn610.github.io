@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+        #wrapper{
+            width: 100%;
+            height: 1277px;
+            margin: 0 auto;
+        }
+        header{
+            width: 59.11%;
+            height: 87px;
+            margin: 0 auto;
+            
+        }
+        header h1{
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            
+            
+            
+        }
+        
+        header nav{
+            float: right;
+            font-weight: bold;
+            line-height: 50px;
+            
+            
+           
+        }
+        header ul li{
+            display: inline-block;
+            margin-left: 51px; 
+        }
+        header ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        #fortfolio{
+            width: 100%;
+            height: 333px;
+            background-size: cover;
+            background-image: url("/dd/20190520_132811.png")
+        }
+        section div{
+            width: 31.3901%;
+            height: 310px;
+            background-color:lightgrey;
+            justify-content: space-between;
+            margin-top: 46px;
+            text-align: center;
+            position: relative;
+            
+        }
+        section div a{
+            line-height: 40px;
+           text-decoration: none;
+           color:black;
+           font-family: 'Noto Sans KR', sans-serif;
+            
+        }
+
+        section{
+            width: 59.11%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+           
+            margin: 0 auto;
+        }
+        footer{
+            width: 100%;
+            height: 124px;
+            background-color: rgb(4, 8, 29);
+            color: rgba(194, 194, 194, 0.815);
+            text-align: center;
+        }
+        section div:hover p{
+            display: block;
+                        
+        }
+        section div p{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: -18px;
+            left: 0px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0,0.8);
+            line-height: 300px;
+            display: none;
+            z-index:99;
+        }
+        footer p{
+            line-height: 2em;
+        }
+        
+           
+        
+        
+        
+
+
+
+    
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>KIM JAE WOO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MEDIA</a></li>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="fortfolio"></div>
+        <section>
+            <div>
+                <img src="/dd/20190520_114044.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">롯데호텔 앤 리조트</a>
+            </div>
+            <div>
+                <img src="/dd/20190520_114042.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">시그니엘 레지던스</a>
+            </div>
+            <div><img src="/dd/20190520_114039.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">그랜드 인터컨티넨탈</a>
+            </div>
+            <div>
+                <img src="/dd/20190520_114036.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">더 플라자 호텔 서울</a>
+            </div>
+            <div>
+                <img src="/dd/20190520_114030.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">워커힐호텔 앤 리조트</a>
+            </div>
+            <div>
+                <img src="/dd/20190520_114021.png" alt="">
+                <p>자세히보기</p>
+                <a href="#">휘닉스호텔 앤 리조트</a>
+            </div>
+            
+        
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>E-mail. wodn610@naver.com
+            <br>
+            Copy ⓒ 2019 by KIM JAE WOO. All Rights Reserved
+        </p>
+    </footer>
+    
+    
+</body>
+</html>
